@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(to bottom, #434343 0%, #000000 100%);
+  color: #EEE8AA;
+  font-family: 'Optima', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.diplomes,
+.Domaines,
+.Langage {
+  text-align: center;
+}
+
+.diplomes,
+.Domaines {
+  margin-top: 20px;
+}
+
+.Langage {
+  margin-top: 10px;
+}
+
+.pdp {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: solid 2px #EEE8AA;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.pdp:hover {
+  transform: scale(1.5);
+}
+
+.name1 {
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 10px;
+  background: #A9A9A9;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.name1 p {
+  margin: 0;
+}
+
+.name1 .name {
+  color: #000000;
+  font-family: 'Optima', sans-serif;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+/* ... (other styles from your original CSS) ... */
+
+.progc,
+.progCss,
+.progHtml {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border: solid 2px #EEE8AA;
+  margin-right: 10px;
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.progC {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border: solid 2px #EEE8AA;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.progc:hover,
+.progCss:hover,
+.progHtml:hover,
+.progC:hover {
+  transform: perspective(150px) rotateX(35deg);
+  border-color: blue;
+}
+
+.ar,
+.fr,
+.en {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border: solid 2px #EEE8AA;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.ar:hover,
+.fr:hover,
+.en:hover {
+  transform: rotate(90deg);
+  transition-duration: 2s;
+}
+
+
+@media (max-width: 768px) {
+
+}
