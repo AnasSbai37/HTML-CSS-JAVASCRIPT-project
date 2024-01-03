@@ -66,11 +66,11 @@ body {
   font-weight: bold;
 }
 
-/* ... (other styles from your original CSS) ... */
-
 .progc,
 .progCss,
-.progHtml {
+.progHtml,
+.progPython,
+.progJavaScript {
   margin-top: 10px;
   width: 100px;
   height: 100px;
@@ -97,6 +97,24 @@ body {
   border-color: blue;
 }
 
+.Langage .progPython,
+.Langage .progJavaScript {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border: solid 2px #EEE8AA;
+  margin-right: 10px;
+  display: inline-block;
+  transition: transform 1s;
+}
+
+.Langage .progPython:hover,
+.Langage .progJavaScript:hover {
+  transform: perspective(150px) rotateX(35deg);
+  border-color: blue;
+}
+
+
 .ar,
 .fr,
 .en {
@@ -116,7 +134,6 @@ body {
   transition-duration: 2s;
 }
 
-
 @media (max-width: 768px) {
-
+  /* Add responsive styles here if needed */
 }
