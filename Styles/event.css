@@ -22,7 +22,7 @@ body {
 }
 
 .Nom1 {
-  margin-left: 80px;
+  margin-left: 98px;
 }
 
 input {
@@ -37,19 +37,19 @@ input:focus {
 }
 
 .prénom1 {
-  margin-left: 62px;
+  margin-left: 98px;
 }
 
 .Email1 {
-  margin-left: 74px;
+  margin-left: 130px;
 }
 
 .pass1 {
-  margin-left: 28px;
+  margin-left: 106px;
 }
 
 .pass2 {
-  margin-left: 26px;
+  margin-left: 20px;
 }
 
 .sinscrire {

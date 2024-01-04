@@ -87,6 +87,7 @@ body {
   border: solid 2px #EEE8AA;
   margin-right: 10px;
   display: inline-block;
+  transition: transform 1s;
 }
 
 .progc:hover,
